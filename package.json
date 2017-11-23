@@ -1,0 +1,7 @@
+{
+  "name": "hapi-auth",
+  "version": "1.0.0",
+  "dependencies": {
+    "boom": "^7.1.1"
+  }
+}
