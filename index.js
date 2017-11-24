@@ -1,7 +1,7 @@
 const Boom = require(`boom`);
 
 module.exports.plugin = {
-    name: `hapi-auth`,
+    name: `hapi-session-auth`,
     dependencies: [`hapi-sessions`],
     register: async function (server, options) {
         server.auth.scheme(`sessions`, function (server, options) {
