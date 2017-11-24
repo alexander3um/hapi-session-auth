@@ -1,11 +1,11 @@
 {
   "name": "hapi-session-auth",
   "version": "1.0.0",
-  "homepage": "https://github.com/alexander3um/hapi-auth",
+  "homepage": "https://github.com/alexander3um/hapi-session-auth",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexander3um/hapi-auth.git"
+    "url": "https://github.com/alexander3um/hapi-session-auth.git"
   },
   "keywords": ["hapi", "auth", "authentication", "sessions", "plugin"],
   "dependencies": {
