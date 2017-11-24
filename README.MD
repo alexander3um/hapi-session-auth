@@ -5,3 +5,5 @@ Authentication plugin for hapi framework based on sessions. Depends on [hapi-ses
 * `request.sAuth.deauthenticate(credentials)`
 
 Credentials is an optional argument. Must be an object.
+
+The plugin has been made by a total rookie for personal purposes. Any critics are welcome.
