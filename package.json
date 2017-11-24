@@ -1,6 +1,9 @@
 {
   "name": "hapi-auth",
+  "homepage": "https://github.com/alexander3um/hapi-auth",
+  "description": "",
   "version": "1.0.0",
+  "keywords": ["hapi", "auth", "authentication", "sessions", "plugin"],
   "dependencies": {
     "boom": "^7.1.1"
   }
