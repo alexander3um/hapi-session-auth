@@ -7,14 +7,16 @@ module.exports.plugin = {
         server.auth.scheme(`sessions`, function (server, options) {
             server.decorate(`request`, `sAuth`, function (request) {
                 return {
-                    authenticate: async () => {
+                    authenticate: async (credentials) => {
                         return request.session.addOrChange({
-                            isAuthenticated: true
+                            isAuthenticated: true,
+                            credentials: credentials || {}
                         });
                     },
-                    deauthenticate: async () => {
+                    deauthenticate: async (credentials) => {
                         return request.session.addOrChange({
-                            isAuthenticated: false
+                            isAuthenticated: false,
+                            credentials: credentials || {}
                         });
                     }
                 };
